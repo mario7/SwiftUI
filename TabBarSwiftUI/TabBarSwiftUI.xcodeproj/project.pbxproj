@@ -11,6 +11,7 @@
 		030D46B32587993E00F4B300 /* ThirdView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 030D46B22587993E00F4B300 /* ThirdView.swift */; };
 		030D46B525907EB700F4B300 /* PreferenceData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 030D46B425907EB700F4B300 /* PreferenceData.swift */; };
 		038C383725975AF100F9C07A /* CustomTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 038C383625975AF100F9C07A /* CustomTabView.swift */; };
+		038C38442599DD5400F9C07A /* TabbarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 038C38432599DD5400F9C07A /* TabbarView.swift */; };
 		4AA40E4B2363D7A00092137A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AA40E4A2363D7A00092137A /* AppDelegate.swift */; };
 		4AA40E4D2363D7A00092137A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AA40E4C2363D7A00092137A /* SceneDelegate.swift */; };
 		4AA40E4F2363D7A00092137A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AA40E4E2363D7A00092137A /* ContentView.swift */; };
@@ -24,6 +25,7 @@
 		030D46B22587993E00F4B300 /* ThirdView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdView.swift; sourceTree = "<group>"; };
 		030D46B425907EB700F4B300 /* PreferenceData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferenceData.swift; sourceTree = "<group>"; };
 		038C383625975AF100F9C07A /* CustomTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabView.swift; sourceTree = "<group>"; };
+		038C38432599DD5400F9C07A /* TabbarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabbarView.swift; sourceTree = "<group>"; };
 		4AA40E472363D7A00092137A /* TabBarSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TabBarSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4AA40E4A2363D7A00092137A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4AA40E4C2363D7A00092137A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -71,6 +73,7 @@
 				030D46B22587993E00F4B300 /* ThirdView.swift */,
 				030D46B425907EB700F4B300 /* PreferenceData.swift */,
 				038C383625975AF100F9C07A /* CustomTabView.swift */,
+				038C38432599DD5400F9C07A /* TabbarView.swift */,
 				4AA40E502363D7A10092137A /* Assets.xcassets */,
 				4AA40E552363D7A10092137A /* LaunchScreen.storyboard */,
 				4AA40E582363D7A10092137A /* Info.plist */,
@@ -160,6 +163,7 @@
 			files = (
 				4AA40E4B2363D7A00092137A /* AppDelegate.swift in Sources */,
 				038C383725975AF100F9C07A /* CustomTabView.swift in Sources */,
+				038C38442599DD5400F9C07A /* TabbarView.swift in Sources */,
 				030D46B32587993E00F4B300 /* ThirdView.swift in Sources */,
 				030D46B525907EB700F4B300 /* PreferenceData.swift in Sources */,
 				4AA40E4D2363D7A00092137A /* SceneDelegate.swift in Sources */,
@@ -310,7 +314,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = jp.co.xxxx.TabBarSwiftUI;
+				PRODUCT_BUNDLE_IDENTIFIER = jp.co.xxx.TabBarSwiftUI;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
@@ -332,7 +336,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = jp.co.xxxx.TabBarSwiftUI;
+				PRODUCT_BUNDLE_IDENTIFIER = jp.co.xxx.TabBarSwiftUI;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;

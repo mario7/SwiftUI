@@ -1,12 +1,3 @@
-
-//
-//  PreferenceData.swift
-//  TabBarSwiftUI
-//
-//  Created by snowman on 2020/12/21.
-//  Copyright © 2020 Ahmed Elzohry. All rights reserved.
-//
-
 import Foundation
 import SwiftUI
 

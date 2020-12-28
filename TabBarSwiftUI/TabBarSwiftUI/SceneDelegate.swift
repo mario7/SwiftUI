@@ -1,11 +1,3 @@
-//
-//  SceneDelegate.swift
-//  TabBarSwiftUI
-//
-//  Created by snowman on 12/20/20.
-//  Copyright © 2020 jp.co.futureline. All rights reserved.
-//
-
 import UIKit
 import SwiftUI
 

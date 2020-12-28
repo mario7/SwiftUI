@@ -1,11 +1,3 @@
-//
-//  TabViewSample.swift
-//  TabBarSwiftUI
-//
-//  Created by snowman on 2020/12/26.
-//  Copyright © 2020 snowman. All rights reserved.
-//
-
 import SwiftUI
 
 typealias  TupleColor = (systemImage:String, bgColor: Color)
