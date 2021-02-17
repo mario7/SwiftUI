@@ -13,12 +13,12 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
     // Create the SwiftUI view that provides the window contents.
     //let contentView = ContentView().environmentObject(NoticeViewModel())
-    let customTabView = CustomTabView()
+    let customView = SheetView()
 
     // Use a UIHostingController as window root view controller.
     if let windowScene = scene as? UIWindowScene {
         let window = UIWindow(windowScene: windowScene)
-        window.rootViewController = UIHostingController(rootView: customTabView)
+        window.rootViewController = UIHostingController(rootView: customView)
         self.window = window
         window.makeKeyAndVisible()
     }
